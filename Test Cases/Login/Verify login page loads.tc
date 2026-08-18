@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case 1</name>
+   <name>Verify login page loads</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c926d174-792a-47e8-99f0-25e023598d26</testCaseGuid>
+   <testCaseGuid>423279ec-6517-4748-8157-163f0841cb12</testCaseGuid>
 </TestCaseEntity>
