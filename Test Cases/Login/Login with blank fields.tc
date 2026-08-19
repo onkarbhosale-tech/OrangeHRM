@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login with valid credentials</name>
+   <name>Login with blank fields</name>
    <tag>@Login</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>208d80ca-9496-45f8-b4fa-623164e49d3e</testCaseGuid>
+   <testCaseGuid>dfd87107-fc8d-4bf0-91c6-50a293b3c8af</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>c5ec4bce-80a2-4466-ada1-3ade69acbce4</id>
+      <id>c5cf9b15-5e4c-41a5-9440-2ef115e8068d</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -16,28 +16,28 @@
       <testDataId>Data Files/Login/Login Test data</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>c5ec4bce-80a2-4466-ada1-3ade69acbce4</testDataLinkId>
+      <testDataLinkId>c5cf9b15-5e4c-41a5-9440-2ef115e8068d</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Username</value>
-      <variableId>b1977145-ffb2-421d-8e65-702c8f4fa269</variableId>
+      <variableId>95ae3b10-3b89-4a08-9ba1-4eea6e259de5</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>c5ec4bce-80a2-4466-ada1-3ade69acbce4</testDataLinkId>
+      <testDataLinkId>c5cf9b15-5e4c-41a5-9440-2ef115e8068d</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Password</value>
-      <variableId>bb21f92f-3440-4f8a-9e4a-6160f1909965</variableId>
+      <variableId>ec87503c-cb1f-4101-a595-6f5596b5a8b1</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b1977145-ffb2-421d-8e65-702c8f4fa269</id>
+      <id>95ae3b10-3b89-4a08-9ba1-4eea6e259de5</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>bb21f92f-3440-4f8a-9e4a-6160f1909965</id>
+      <id>ec87503c-cb1f-4101-a595-6f5596b5a8b1</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>

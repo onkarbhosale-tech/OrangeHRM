@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login_Excel_data_Driven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>3</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>073f1f80-abdb-41a2-a926-5b6d6a2bc294</testSuiteGuid>
+   <testCaseLink>
+      <guid>7f3d61ee-9018-407b-a897-8b047225b922</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login with valid credentials</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1ab27023-e8e0-4087-bf82-2d920d098ec5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/Login Test data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1ab27023-e8e0-4087-bf82-2d920d098ec5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>b1977145-ffb2-421d-8e65-702c8f4fa269</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1ab27023-e8e0-4087-bf82-2d920d098ec5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>bb21f92f-3440-4f8a-9e4a-6160f1909965</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a02337b1-5b0d-45fb-b5d3-c391c3095101</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login with blank fields</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f0ab0bd7-3657-4843-b89f-99865342bbe5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/Login Test data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f0ab0bd7-3657-4843-b89f-99865342bbe5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>95ae3b10-3b89-4a08-9ba1-4eea6e259de5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f0ab0bd7-3657-4843-b89f-99865342bbe5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>ec87503c-cb1f-4101-a595-6f5596b5a8b1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

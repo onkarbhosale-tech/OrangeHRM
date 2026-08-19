@@ -17,13 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String tcName = "Login with invalid username";
+
+Map<String,Map<String,String>> data = GlobalVariable.sharedData;
+
+Map<String,String> dataValues = data.get(tcName);
+
 WebUI.openBrowser(null)
 
 WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username'), Username)
+WebUI.setText(findTestObject('Page_OrangeHRM/input_Username'),dataValues.get("Username"))
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password'), Password)
+WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password'), dataValues.get("Password"))
 
 WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
 

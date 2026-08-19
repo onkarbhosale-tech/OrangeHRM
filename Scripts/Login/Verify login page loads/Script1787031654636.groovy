@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(null)
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.assertElementPresent(findTestObject('Page_OrangeHRM/input_Username'), 0)
 

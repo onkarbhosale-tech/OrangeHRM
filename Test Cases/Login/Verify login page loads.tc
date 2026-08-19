@@ -2,8 +2,17 @@
 <TestCaseEntity>
    <description></description>
    <name>Verify login page loads</name>
-   <tag></tag>
+   <tag>@Login</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>423279ec-6517-4748-8157-163f0841cb12</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>ec138901-9c22-49b1-a62e-5a988472ef95</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login/Login Test data</testDataId>
+   </testDataLinks>
 </TestCaseEntity>

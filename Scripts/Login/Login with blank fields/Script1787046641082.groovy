@@ -27,6 +27,5 @@ WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password'), Password
 
 WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
 
-WebUI.assertElementPresent(findTestObject('Page_OrangeHRM/h6_Dashboard'), 0)
-
 WebUI.takeFullPageScreenshotWithScroll()
+
